@@ -1,0 +1,28 @@
+1. Set Node environment variable to "production"
+$ export NODE_ENV=production
+
+2. Set Node environment variable to "development"
+$ export NODE_ENV=development
+
+3. Set app_password using "config" npm package
+$ export app_password=1234
+ 
+4. Use "debug" npm package: select 'app:startup' debugger
+$ export DEBUG=app:startup
+
+5. Use "debug" npm package: select 'app:db' debugger
+$ export DEBUG=app:startup
+
+6. Use "debug" npm package: select two debugger 
+$ export DEBUG=app:startup,app:db
+
+7. Use "debug" npm package: select all debugger
+$ export DEBUG=app:*
+
+8. Start application
+$ DEBUG=app:db nodemon index.js 
+(OR)
+$ DEBUG=app:startup nodemon index.js
+
+9. Export PORT
+$ export PORT=5000

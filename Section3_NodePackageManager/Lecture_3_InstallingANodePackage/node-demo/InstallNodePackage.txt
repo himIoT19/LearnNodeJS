@@ -1,0 +1,17 @@
+# Create "package.json":
+
+$ npm init --yes
+
+Note: Does not ask for any entry.
+
+$ npm init
+
+Note: Asks for many entries.
+
+# Install a node package(eg: 'underscore'):
+
+$ npm i underscore
+(or)
+$ npm install underscore
+
+Note: 'i' => install, installs latest version of node package(locally).

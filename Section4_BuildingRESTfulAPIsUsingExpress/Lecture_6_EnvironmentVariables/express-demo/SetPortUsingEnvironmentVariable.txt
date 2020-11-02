@@ -1,0 +1,23 @@
+1. Run application using below command:
+$ nodemon index.js 
+[nodemon] 2.0.5
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+Listening on port 3000...
+
+2. Since we have not set environment variable for PORT. Set it using command below:
+(Ubuntu)
+$ export PORT=<port_number>
+(Windows)
+$ set PORT=<port_number>
+
+3. Again run the same application:
+$ nodemon index.json
+[nodemon] 2.0.5
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+Listening on port 5000...

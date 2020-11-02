@@ -1,0 +1,9 @@
+# Create "package.json":
+
+$ npm init --yes
+
+Note: Does not ask for any entry.
+
+$ npm init
+
+Note: Asks for many entries.
